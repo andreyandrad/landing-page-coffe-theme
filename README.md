@@ -6,8 +6,6 @@ Uma landing page responsiva para uma cafeteria, construída com HTML, CSS e Java
 
 **[Ver Projeto Online](https://andreyandrad.github.io/landing-page-coffe-theme/)**
 
-_(Não se esqueça de adicionar um screenshot do seu site aqui!)_
-
 ## 🛠️ Tecnologias Utilizadas
 
 - **HTML5**: Marcação semântica para a estrutura.

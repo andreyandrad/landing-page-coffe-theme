@@ -4,7 +4,7 @@ Uma landing page responsiva para uma cafeteria, construída com HTML, CSS e Java
 
 ## 🌐 Visualize o projeto:
 
-**[Ver Projeto Online](COLOQUE-SEU-LINK-DO-GITHUB-PAGES-AQUI)**
+**[Ver Projeto Online](https://andreyandrad.github.io/landing-page-coffe-theme/)**
 
 _(Não se esqueça de adicionar um screenshot do seu site aqui!)_
 

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Grão Dourado - Peça já o seu ou visite-nos!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="#hero" class="nav-logo">Grão Dourado</a>
+            <ul class="nav-links">
+                <li><a href="#menu">Cardápio</a></li>
+                <li><a href="#visit">Como Chegar</a></li>
+            </ul>
+            <a href="https://wa.me/559999999" target="_blank" class="nav-cta-button">
+                <i class="fab fa-whatsapp"></i> Peça Agora
+            </a>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1>O Aroma Perfeito, a Qualquer Hora</h1>
+                <p>O melhor café artesanal da cidade, pronto para você. Peça já o seu ou venha nos visitar!</p>
+                <a href="https://wa.me/559999999" target="_blank" class="cta-button hero-cta">
+                    <i class="fab fa-whatsapp"></i> Pedir Agora pelo WhatsApp
+                </a>
+            </div>
+        </section>
+
+        <section id="benefits" class="benefits-section">
+            <h2>Por que escolher o Grão Dourado?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <i class="fas fa-coffee"></i>
+                    <h3>Grãos Selecionados</h3>
+                    <p>Trabalhamos apenas com grãos 100% arábica de origem controlada.</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-couch"></i>
+                    <h3>Ambiente Aconchegante</h3>
+                    <p>O lugar perfeito para relaxar, trabalhar ou encontrar amigos.</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-wifi"></i>
+                    <h3>Wi-Fi de Alta Velocidade</h3>
+                    <p>Conecte-se e aproveite seu café sem preocupações.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="menu-section">
+            <h2>Nosso Menu</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="assets/Cafe.jpg" alt="Café Espresso">
+                    <h3>Espresso Intenso</h3>
+                    <p>Um clássico forte e encorpado para despertar seus sentidos.</p>
+                    <span>R$ 8,00</span>
+                </div>
+                <div class="menu-item">
+                    <img src="assets/Capuccino.jpg" alt="Cappuccino Cremoso">
+                    <h3>Cappuccino Cremoso</h3>
+                    <p>Espresso, leite vaporizado e uma camada generosa de espuma.</p>
+                    <span>R$ 12,00</span>
+                </div>
+                <div class="menu-item">
+                    <img src="assets/Croissant.jpg" alt="Croissant de Amêndoas">
+                    <h3>Croissant de Amêndoas</h3>
+                    <p>Massa folhada perfeitamente assada com recheio de amêndoas.</p>
+                    <span>R$ 14,00</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials-section">
+            <h2>O que nossos clientes dizem</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p>"O melhor cappuccino que já tomei! O ambiente é incrível, perfeito para trabalhar."</p>
+                    <span>- Maria S.</span>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Atendimento nota 10 e o croissant de amêndoas é divino. Peço toda semana pelo WhatsApp!"</p>
+                    <span>- João P.</span>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Finalmente um café de qualidade na região. O cheiro de café fresco é sentido de longe!"</p>
+                    <span>- Ana L.</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="visit" class="cta-block-section">
+            <div class="cta-block-grid">
+                <div class="cta-block-content">
+                    <h2>Estamos te esperando!</h2>
+                    <p>Seja para um pedido rápido ou para uma pausa relaxante no seu dia, estamos prontos para te
+                        atender. Escolha como você quer se conectar conosco:</p>
+
+                    <a href="https://wa.me/5599999999" target="_blank" class="cta-main-button whatsapp">
+                        <i class="fab fa-whatsapp"></i> Chamar no WhatsApp
+                    </a>
+                    <a href="https://instagram.com/cafedourado" target="_blank" class="cta-main-button instagram">
+                        <i class="fab fa-instagram"></i> Seguir no Instagram
+                    </a>
+                    <a href="#map-embed" class="cta-main-button visit">
+                        <i class="fas fa-map-marker-alt"></i> Ver no Mapa
+                    </a>
+                </div>
+                <div class="map-container" id="map-embed">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086055577609!2d-122.41941548468152!3d37.77492977975936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808c1e8f2a3f%3A0x6d1f391b10b0b8c!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbr!4v1678886555555"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://instagram.com/cafedourado" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://wa.me/5599999999" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <p>&copy; 2025 Café Grão Dourado. Todos os direitos reservados.</p>
+        <p>Rua do Café, 123 - Centro</p>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
